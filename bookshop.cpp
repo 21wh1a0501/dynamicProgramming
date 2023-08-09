@@ -1,7 +1,7 @@
 //cses bookshop
 #include <bits/stdc++.h>
 using namespace std;
-//state -> dp[r][c]  no of ways required to reach r, c
+//state -> dp[i][j] maximum number of pages we can get for price at most j, only buying among the first i books.
 const int MOD = 1e9 + 7;
 void solve(){
     int n, x, i, j;
